@@ -2,8 +2,8 @@
   "name": "rokae-rl",
   "displayName": "ROKAE RL",
   "description": "Syntax highlighting and dark theme for ROKAE RL (.mod) files.",
-  "version": "0.0.1",
-  "publisher": "frg-customs",
+  "version": "0.0.4",
+  "publisher": "mate-kovacs",
   "license": "MIT",
 
   "repository": {
