@@ -1,0 +1,110 @@
+{
+  "name": "ROKAE Dark",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#101010",
+    "editor.foreground": "#D4D4D4",
+    "editorLineNumber.foreground": "#858585",
+    "editorCursor.foreground": "#FFFFFF",
+    "editor.selectionBackground": "#264F78",
+    "editor.inactiveSelectionBackground": "#3A3D4188"
+  },
+  "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#6A9955"
+      }
+    },
+    {
+      "scope": "keyword.declaration.rokae",
+      "settings": {
+        "foreground": "#4FC1FF"
+      }
+    },
+    {
+    "scope": "support.variable.property.rokae",
+    "settings": {
+        "foreground": "#4EC9B0"
+    }
+    },
+    {
+      "scope": "constant.language.rokae",
+      "settings": {
+        "foreground": "#569CD6"
+      }
+    },
+    {
+      "scope": "comment.line.double-slash.rokae",
+      "settings": {
+        "foreground": "#6A9955"
+      }
+    },
+    {
+      "scope": "comment.block.rokae",
+      "settings": {
+        "foreground": "#6A9955"
+      }
+    },
+    {
+      "scope": "string.quoted.double.rokae",
+      "settings": {
+        "foreground": "#CE9178"
+      }
+    },
+    {
+      "scope": "keyword.operator.rokae",
+      "settings": {
+        "foreground": "#D4D4D4"
+      }
+    },
+    {
+      "scope": "keyword.control.rokae",
+      "settings": {
+        "foreground": "#569CD6"
+      }
+    },
+    {
+      "scope": "storage.type.rokae",
+      "settings": {
+        "foreground": "#FF6FAE"
+      }
+    },
+    {
+      "scope": "constant.other.rokae",
+      "settings": {
+        "foreground": "#C586F7"
+      }
+    },
+    {
+      "scope": "support.function.builtin.rokae",
+      "settings": {
+        "foreground": "#FF9D3B"
+      }
+    },
+    {
+      "scope": "entity.name.function.rokae",
+      "settings": {
+        "foreground": "#DCDCAA"
+      }
+    },
+    {
+      "scope": "constant.numeric.rokae",
+      "settings": {
+        "foreground": "#4EC9B0"
+      }
+    },
+    {
+      "scope": "string.quoted.double.rokae",
+      "settings": {
+        "foreground": "#CE9178"
+      }
+    },
+    {
+      "scope": "keyword.operator.rokae",
+      "settings": {
+        "foreground": "#D4D4D4"
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+Types:
+int, uint, double, bool, string, byte, clock,
+confdata, jointtarget, load, orient, pos, pose, robtarget,
+speed, tool, trigdata, wobj, zone, torqueinfo,
+SocketServer, SocketConn
+
+Motion:
+MoveAbsJ, MoveJ, MoveL, MoveC, MoveT, SearchL, SearchC
+
+IO:
+SetDO, SetAllDO, SetGO, SetAO, PulseDO, PulseReg,
+WaitDI, ReadDI, ReadAI, ReadAO, ReadDO
+
+Communication:
+OpenDev, CloseDev, SocketAccept, SendString, SendByte,
+ReadBit, ReadByte, ReadDouble, ReadInt, ReadString,
+GetSocketConn, GetSocketServer, GetBufSize, ClearBuffer
+
+Logic:
+If, Else if, Else, Endif, For, While, Return, Break,
+Continue, Goto, Wait, WaitUntil, Pause, try, catch, SwitchCase
+
+Math / string / bit / conversion:
+sin, cos, tan, sqrt, abs, rand,
+StrFind, StrLen, StrSplit,
+BitAnd, BitSet, BitClear,
+StrToInt, StrToDouble, IntToStr, DoubleToStr, etc.
+
+Advanced / robot:
+RelTool, Offs, ConfL, VelSet, AccSet,
+EulerToQuaternion, QuaternionToEuler,
+MotionSup, BreakLookAhead,
+CRobT, CJointT, CalcJointT,
+sta_tcp_pose, sta_cart_pose

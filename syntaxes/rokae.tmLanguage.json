@@ -1,0 +1,64 @@
+{
+  "scopeName": "source.rokae-rl",
+  "name": "ROKAE RL",
+  "patterns": [
+    {
+      "name": "comment.line.double-slash.rokae",
+      "match": "//.*$"
+    },
+    {
+      "name": "comment.block.rokae",
+      "begin": "/\\*",
+      "end": "\\*/"
+    },
+    {
+      "name": "string.quoted.double.rokae",
+      "begin": "\"",
+      "end": "\""
+    },
+    {
+      "name": "keyword.declaration.rokae",
+      "match": "\\b(GLOBAL|LOCAL|CONST|VAR|PROC|FUNC|ENDPROC|ENDFUNC)\\b"
+    },
+    {
+        "name": "keyword.control.rokae",
+        "match": "\\bElse\\s+if\\b"
+    },
+    {
+        "name": "keyword.control.rokae",
+        "match": "\\b(If|Else|Endif|While|For|Return|Break|Continue)\\b"
+    },
+    {
+      "name": "storage.type.rokae",
+      "match": "\\b(int|double|bool|string|num|pose|robtarget|jointtarget|tool|wobj|frame)\\b"
+    },
+    {
+      "name": "constant.language.rokae",
+      "match": "\\b(true|false|null)\\b"
+    },
+    {
+      "name": "constant.other.rokae",
+      "match": "\\b[A-Z][A-Z0-9_]{1,}\\b"
+    },
+    {
+      "name": "support.function.builtin.rokae",
+      "match": "\\b(MoveJ|MoveL|MoveC|Wait|WaitDI|SetDO|ResetDO|print|sta_tcp_pose|sta_cart_pose|EulerToQuaternion)\\b"
+    },
+    {
+      "name": "support.variable.property.rokae",
+      "match": "\\b(Tframe|tframe|trans|rot|cfg|extax|oframe|uframe|x|y|z|q1|q2|q3|q4)\\b"
+    },
+    {
+      "name": "entity.name.function.rokae",
+      "match": "\\b[a-zA-Z_][a-zA-Z0-9_]*\\s*(?=\\()"
+    },
+    {
+      "name": "constant.numeric.rokae",
+      "match": "\\b[-+]?[0-9]+(\\.[0-9]+)?\\b"
+    },
+    {
+      "name": "keyword.operator.rokae",
+      "match": "==|!=|<=|>=|&&|\\|\\||[=+\\-*/<>!]"
+    }
+  ]
+}
