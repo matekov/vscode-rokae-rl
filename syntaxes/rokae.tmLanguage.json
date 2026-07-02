@@ -46,7 +46,7 @@
     },
     {
       "name": "support.variable.property.rokae",
-      "match": "\\b(Tframe|tframe|trans|rot|cfg|extax|oframe|uframe|x|y|z|q1|q2|q3|q4)\\b"
+      "match": "\\b(Tframe|tframe|trans|rot|cfg|extax|Oframe|oframe|Uframe|uframe|x|y|z|q1|q2|q3|q4)\\b"
     },
     {
       "name": "entity.name.function.rokae",
