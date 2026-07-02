@@ -32,5 +32,30 @@
   "categories": [
     "Programming Languages",
     "Themes"
-  ]
+  ],
+
+  "contributes": {
+    "languages": [
+      {
+        "id": "rokae-rl",
+        "aliases": ["ROKAE RL", "RL"],
+        "extensions": [".mod", ".MOD"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "rokae-rl",
+        "scopeName": "source.rokae-rl",
+        "path": "./syntaxes/rokae.tmLanguage.json"
+      }
+    ],
+    "themes": [
+      {
+        "label": "ROKAE Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rokae-dark-color-theme.json"
+      }
+    ]
+  }
 }
