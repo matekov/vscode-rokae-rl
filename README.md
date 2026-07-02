@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ROKAE RL for Visual Studio Code
 
 Syntax highlighting and dark theme for ROKAE RL `.mod` files.
@@ -85,7 +84,3 @@ If you discover additional ROKAE RL keywords or commands, feel free to contribut
 ## License
 
 This project is licensed under the MIT License.
-=======
-# Rokae-RL-lanuage-extension
-Syntax highlighting and theme for ROKAE RL `.mod` files.
->>>>>>> 17ebcad6713d3931b031975104fd812b0e1b281f
