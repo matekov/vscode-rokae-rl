@@ -7,13 +7,22 @@
   "engines": {
     "vscode": "^1.80.0"
   },
-  "categories": ["Programming Languages", "Themes"],
+  "categories": [
+    "Programming Languages",
+    "Themes"
+  ],
   "contributes": {
     "languages": [
       {
         "id": "rokae-rl",
-        "aliases": ["ROKAE RL", "RL"],
-        "extensions": [".mod", ".MOD"],
+        "aliases": [
+          "ROKAE RL",
+          "RL"
+        ],
+        "extensions": [
+          ".mod",
+          ".MOD"
+        ],
         "configuration": "./language-configuration.json"
       }
     ],
@@ -31,5 +40,8 @@
         "path": "./themes/rokae-dark-color-theme.json"
       }
     ]
+  },
+  "dependencies": {
+    "@vscode/vsce": "^3.9.2"
   }
 }
