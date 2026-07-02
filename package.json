@@ -1,47 +1,36 @@
 {
-  "name": "rokae-rl-lang-pack",
-  "displayName": "ROKAE RL Language Pack",
-  "description": "Syntax highlighting and dark theme for ROKAE RL .mod files.",
+  "name": "rokae-rl",
+  "displayName": "ROKAE RL",
+  "description": "Syntax highlighting and dark theme for ROKAE RL (.mod) files.",
   "version": "0.0.1",
   "publisher": "frg-customs",
+  "license": "MIT",
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matekov/vscode-rokae-rl.git"
+  },
+
+  "homepage": "https://github.com/matekov/vscode-rokae-rl",
+
+  "keywords": [
+    "rokae",
+    "robot",
+    "robotics",
+    "automation",
+    "industrial",
+    "rl",
+    "xcore",
+    "mod",
+    "vscode"
+  ],
+
   "engines": {
     "vscode": "^1.80.0"
   },
+
   "categories": [
     "Programming Languages",
     "Themes"
-  ],
-  "contributes": {
-    "languages": [
-      {
-        "id": "rokae-rl",
-        "aliases": [
-          "ROKAE RL",
-          "RL"
-        ],
-        "extensions": [
-          ".mod",
-          ".MOD"
-        ],
-        "configuration": "./language-configuration.json"
-      }
-    ],
-    "grammars": [
-      {
-        "language": "rokae-rl",
-        "scopeName": "source.rokae-rl",
-        "path": "./syntaxes/rokae.tmLanguage.json"
-      }
-    ],
-    "themes": [
-      {
-        "label": "ROKAE Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/rokae-dark-color-theme.json"
-      }
-    ]
-  },
-  "dependencies": {
-    "@vscode/vsce": "^3.9.2"
-  }
+  ]
 }
